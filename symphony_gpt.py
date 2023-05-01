@@ -109,7 +109,7 @@ st.markdown("## Select Influences and Attributes")
 col1, col2 = st.columns(2)
 with col1:
     option_musician1 = st.text_input(
-        'Musical Influce #1',
+        'Musical Influence #1',
         key="musician1_selectbox"
     )
     
@@ -133,7 +133,7 @@ with col2:
 
 
 def get_text():
-    input_text = st.text_area(label="Email Input", label_visibility='collapsed', placeholder="Your Email...", key="email_input")
+    input_text = st.text_area(label="Additional Notes", label_visibility='collapsed', placeholder="Your Email...", key="email_input")
     return input_text
 
 notes_input = get_text()
