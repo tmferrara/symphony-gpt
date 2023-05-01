@@ -30,27 +30,6 @@ Your first input is:
 Additional Notes: {notes}
 
 MARKDOWN OUTPUT of SONG INSTRUCTIONS:
-**Action**: Craft a unique song based on the provided musician attributes, mood, and atmosphere.
-
-**Steps**:
-
-1. Analyze the musician information, mood, and atmosphere provided in the inputs.
-2. Select a title that encapsulates the theme or main idea of the song.
-3. Determine the genre, musical style, and specific influences to incorporate.
-4. Choose the key and time signature for the song.
-5. Design a song structure and outline the sequence of sections.
-6. Develop chord progressions for each section.
-7. Compose the main melody and provide notation or MIDI note numbers.
-8. Write lyrics for each section using rhyme schemes and poetic devices.
-9. Specify the instrumentation, timbres, and compatible VSTs or samples.
-10. Describe any audio effects, processing techniques, and recommended plugins.
-11. Detail the volume levels and percussive profile for each section.
-12. Outline arrangement and automation techniques to be applied in the song.
-
-**Persona**: Imagine you are an experienced music producer and songwriter working with a diverse group of musicians to create a groundbreaking song.
-
-**Examples**:
-
 1. Title: [song title]
 2. Genre and Influences: [genre], inspired by [artists/elements]
 3. Mood and Atmosphere: [mood/atmosphere description]
@@ -66,20 +45,6 @@ MARKDOWN OUTPUT of SONG INSTRUCTIONS:
 10. Audio Effects and Processing: [effects, techniques, and plugin recommendations]
 11. Volume and Percussive Profile: [volume levels and percussion details]
 12. Arrangement and Automation: [arrangement and automation techniques]
-
-**Context**: You will be provided with information on several musicians, including their specific attributes and considerations. Additionally, you will receive a description of the desired mood and atmosphere for the song.
-
-**Constraints**:
-
-- The song must be original and not a direct copy of any existing song.
-- Avoid explicit language or offensive content in the lyrics.
-- Ensure the song remains cohesive while incorporating the diverse influences.
-- Limit the song length to 3-5 minutes for listener engagement.
-
-Output (mardown format) based on:
-{musician1} focus on their {attribute1}
-{musician2} focus on their {attribute2}
-Additional Notes: {notes}
 """
 
 prompt = PromptTemplate(
