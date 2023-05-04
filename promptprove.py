@@ -138,13 +138,13 @@ with col2:
 st.markdown("## Enter your prompt below")
 
 def get_text():
-    input_text = st.text_area(label="Additional Notes", label_visibility='collapsed', placeholder="Additional Notes", key="text_input")
+    input_text = st.text_area(label="Initial Prompt", label_visibility='collapsed', placeholder="Initial Prompt", key="text_input")
     return input_text
 
 notes_input = get_text()
 
 if len(notes_input.split(" ")) > 1000:
-    st.write("Please enter a shorter email. The maximum length is 1000 words.")
+    st.write("Please enter a shorter prompt. The maximum length is 1000 words.")
     st.stop()
 
 def get_api_key():
